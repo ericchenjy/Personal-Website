@@ -1,0 +1,153 @@
+
+/*Style for home page*/
+body.Projects{
+	margin: 0;
+	padding: 0;
+	font-family: : 'Arial', serif;
+
+	min-height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+	opacity: 0.8;
+	filter: alpha(opacity=50);
+}
+
+
+/*style the list*/
+
+ nav {
+ 	/*list-style: none;
+	position: sticky;  
+	text-align: center;*/
+	padding: 0;
+	margin: 0;
+
+	/*margin-left: 40em;
+	color: black;
+	*/
+	width: 100%;
+	float: right;
+	position: relative;
+
+
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.nav-navigation{
+	text-align: left;
+	float: left;
+
+
+	position: relative;
+	
+}
+
+
+/*Github------------------------------------------------------------------*/
+
+.GitHub{
+
+	padding-top: 2%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	text-align: center;
+	width: 100%;
+}
+
+.cover1{
+
+	padding-right: 3%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.GitHub p{
+
+	width: 400px;
+	display: inline-block;
+	text-align:left;
+
+}
+
+.GitHub:hover .cover1{
+	opacity: 0.8;
+}
+
+
+/*Figma------------------------------------------------------------------*/
+
+.Figma{
+	
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+
+	
+}
+
+.cover2{
+
+	padding-right: 3%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.Figma p{
+
+	width:400px;
+	display: inline-block;
+	text-align:left;
+
+}
+
+.Figma:hover .cover2{
+	opacity: 0.8;
+}
+
+
+/*Porfolio------------------------------------------------------------------*/
+
+.Website{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	text-align: center;
+	width: 100%;
+
+}
+
+.cover3{
+
+	padding-right: 3%;;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.Website p{
+
+	width: 400px;
+	display: inline-block;
+	text-align:left;
+
+}
+
+.Website:hover .cover3{
+	opacity: 0.8;
+}
